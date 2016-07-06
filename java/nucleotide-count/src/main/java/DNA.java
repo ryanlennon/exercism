@@ -28,7 +28,7 @@ public class DNA {
         nucleotides.put('C', 0);
         nucleotides.put('G', 0);
         nucleotides.put('T', 0);
-       
+
         for (char bases : basePairs.toCharArray()){
             nucleotides.put(bases, nucleotides.get(bases) + 1);
         }
